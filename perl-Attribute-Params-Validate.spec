@@ -9,7 +9,7 @@ Summary:	Attribute::Params::Validate - Define validation through subroutine attr
 Summary(pl.UTF-8):	Attribute::Params::Validate - określanie poprawności poprzez atrybuty funkcji
 Name:		perl-Attribute-Params-Validate
 Version:	1.21
-Release:	1
+Release:	2
 License:	Artistic v2.0
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Attribute/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -75,5 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes INSTALL
+%dir %{perl_vendorlib}/Attribute/Params
 %{perl_vendorlib}/Attribute/Params/Validate.pm
 %{_mandir}/man3/Attribute::Params::Validate.3pm*
