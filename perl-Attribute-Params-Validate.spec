@@ -4,7 +4,6 @@
 #
 %define		pdir	Attribute
 %define		pnam	Params-Validate
-%include	/usr/lib/rpm/macros.perl
 Summary:	Attribute::Params::Validate - Define validation through subroutine attributes
 Summary(pl.UTF-8):	Attribute::Params::Validate - określanie poprawności poprzez atrybuty funkcji
 Name:		perl-Attribute-Params-Validate
